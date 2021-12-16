@@ -29,6 +29,18 @@
         <input type="submit" value="Submit Form" />
 
       </form>
+      <script>
+        const form = document.getElementById('eingabe')
+        form.addEventListener('submit', saveData)
+
+        function saveData(event){
+          const desc = document.getElementById('desc').value
+          const date = document.getElementById('date').value
+          const cat = document.getElementById('cat').value
+          const number = document.getElementById('desc').value
+
+        }
+      </script>
       <div class="container"></div>
     </main>
     <script src="js/app.js"></script>
